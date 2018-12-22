@@ -2,9 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 //
-// import {FirstReverse} from "./coderbyte/challenges/FirstReverse";
-// import {LetterChanges} from "./coderbyte/challenges/LetterChanges";
-import {SimpleAdding} from "./coderbyte/challenges/SimpleAdding";
+import {LongestWord} from "./coderbyte/challenges";
 
 class App extends Component {
   render() {
@@ -22,10 +20,14 @@ class App extends Component {
     // console.groupEnd();
 
     // console.group('Simple Adding');
-    // console.log('Input:', 'Hello World and Coders');
-    // console.log('Output:', FirstReverse('Hello World and Coders'));
+    // console.log('Input:', 140);
+    // console.log('Output:', SimpleAdding(140));
     // console.groupEnd();
 
+    console.group('Longest Wordd');
+    console.log('Input:', 'I love dogs');
+    console.log('Output:', LongestWord('I love dogs'));
+    console.groupEnd();
 
     return (
       <div className="App">

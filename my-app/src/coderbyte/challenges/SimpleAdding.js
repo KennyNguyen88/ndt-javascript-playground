@@ -1,8 +1,13 @@
-//return the string in reversed order.
-//input: Hello World and Coders
-//output: sredoC dna dlroW olleH
+//return add up all the numbers from 1 to num
+//input: 4
+//output: 1+2+3+4=10
 
-//Note: [...str] -> convert string to char[]
-export const SimpleAdding = (str) => {
-    return ''
+export const SimpleAdding = (num) => {
+    let sum = 0;
+    for (let i = 1; i <= num; i++){
+        sum += i;
+    }
+    return sum;
 };
+
+export default SimpleAdding;

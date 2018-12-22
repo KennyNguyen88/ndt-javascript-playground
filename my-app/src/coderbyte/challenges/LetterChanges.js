@@ -40,3 +40,5 @@ const capitalizeVowel = (ch) => {
     }
     return ch;
 };
+
+export default LetterChanges;

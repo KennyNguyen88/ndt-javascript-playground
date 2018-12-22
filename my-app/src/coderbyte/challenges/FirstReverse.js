@@ -6,3 +6,5 @@
 export const FirstReverse = (str) => {
     return [...str].reverse().join('');
 };
+
+export default FirstReverse;
