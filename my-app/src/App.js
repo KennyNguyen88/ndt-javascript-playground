@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 //
-import {LongestWord} from "./coderbyte/challenges";
+import {FirstFactorial} from "./coderbyte/challenges";
 
 class App extends Component {
   render() {
@@ -24,9 +24,14 @@ class App extends Component {
     // console.log('Output:', SimpleAdding(140));
     // console.groupEnd();
 
-    console.group('Longest Wordd');
-    console.log('Input:', 'I love dogs');
-    console.log('Output:', LongestWord('I love dogs'));
+    // console.group('Longest Word');
+    // console.log('Input:', 'I love dogs');
+    // console.log('Output:', LongestWord('I love dogs'));
+    // console.groupEnd();
+
+    console.group('First Factorial');
+    console.log('Input:', 8);
+    console.log('Output:', FirstFactorial(8));
     console.groupEnd();
 
     return (
