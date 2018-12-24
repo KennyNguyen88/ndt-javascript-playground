@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 //
-import {FirstFactorial} from "./coderbyte/challenges";
+import {LetterCapitalize} from "./coderbyte/challenges";
 
 class App extends Component {
   render() {
@@ -29,9 +29,14 @@ class App extends Component {
     // console.log('Output:', LongestWord('I love dogs'));
     // console.groupEnd();
 
+    // console.group('First Factorial');
+    // console.log('Input:', 8);
+    // console.log('Output:', FirstFactorial(8));
+    // console.groupEnd();
+
     console.group('First Factorial');
-    console.log('Input:', 8);
-    console.log('Output:', FirstFactorial(8));
+    console.log('Input:', 'hello world');
+    console.log('Output:', LetterCapitalize('hello world'));
     console.groupEnd();
 
     return (
